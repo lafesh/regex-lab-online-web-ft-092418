@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   word.select do |bla|
-    bla.scan(//)
+    bla.scan(/\A[aeiou]/)
   end 
 end
 
